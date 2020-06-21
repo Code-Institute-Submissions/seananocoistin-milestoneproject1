@@ -48,7 +48,7 @@ html, body {
     height: 100%;
 }
 .carousel-caption {
-    position: absolute;
+    position: relative;
     top: 50%;
     transform: translateY(-50%);
 }
@@ -213,7 +213,7 @@ body {
 	padding: .25em;
 	width: 80px;
 	height: 80px;
-  background-color: #F8F8F8;
+    background-color: #F8F8F8;
   
   &.show {
     visibility: visible;
