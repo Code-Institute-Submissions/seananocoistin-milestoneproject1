@@ -265,3 +265,30 @@ body {
     #scrollup-button > i {
         margin-top: 20%;
     }
+
+#main-footer {
+    background-color: #0a3b87;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-right: 0;
+    padding-left: 0;
+    text-transform: uppercase;
+    text-align:center;
+    font-weight: 400;
+    color: white !important;
+}
+.container-footer {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.navfooter li {    
+    color: white !important;
+    font-family: 'Oswald', sans-serif;
+}
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+    margin-left: -5px;
+}
