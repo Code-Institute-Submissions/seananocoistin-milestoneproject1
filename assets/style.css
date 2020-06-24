@@ -40,7 +40,7 @@ html, body {
     border-radius: 5px;
     box-shadow: 10px 10px 10px #ccc;
 }
-.radiobutton {
+.checkbox {
     padding: 10px;
 }
 .carousel-inner img {
@@ -70,10 +70,6 @@ html, body {
 .btn-primary:hover {
     background-color: #e85019;
     border: 1px solid #e85019;
-}
-.jumbotron {
-    padding: 1rem;
-    border-radius: 0;
 }
 .padding {
     padding-bottom: 2rem;
@@ -183,7 +179,7 @@ figure {
 }
 
 body {
-  height: 2000px;
+  height: 200px;
   position: relative;
 }
 
@@ -239,33 +235,6 @@ body {
 		}
 	}
 }
-
-#wrapper {
-    overflow-x:hidden;
-}
-
-.scrollup-button {
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    background-color: #fff;
-    color: #000;
-    position: fixed;
-    right: 30px;
-    bottom: 30px;
-    cursor: pointer;
-    font-size: 40px;
-}
-
-    #scrollup-button:hover {
-            background-color: #E0E0E0;
-            box-shadow: 4px 4px 3px black;
-    }
-
-    #scrollup-button > i {
-        margin-top: 20%;
-    }
-
 #main-footer {
     background-color: #0a3b87;
     padding-top: 30px;
