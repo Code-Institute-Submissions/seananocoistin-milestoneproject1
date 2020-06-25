@@ -17,7 +17,6 @@ html, body {
 /* nav .navbar-dark.navbar-nav.navbar-link li a {
     color: white !important; 
     } */
-    
 
 .navbar.navbar-expand-md.navbar-dark.sticky-top ul li a{    
     color: white !important;
@@ -35,7 +34,17 @@ html, body {
     background: #e85019;
     color: white;
     border: 1px solid #e85019;
-    width: 90%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px #ccc;
+}
+.blue-background {
+    text-align: left;
+    background: #0a3b87;
+    color: white;
+    border: 1px solid #0a3b87;
+    width: 100%;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 10px 10px 10px #ccc;
@@ -46,22 +55,6 @@ html, body {
 .carousel-inner img {
     width: 100%;
     height: 100%;
-}
-.carousel-caption {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-}
-.carousel-caption h1 {
-    font-size: 100%;
-    font-weight: 400;
-    text-shadow: 1px 1px 15px #000;
-}
-.carousel-caption h3 {
-    font-size: 300%;
-    text-transform: uppercase;
-    text-shadow: 1px 1px 10px #000;
-    padding-bottom: 1rem;
 }
 .btn-primary {
     background-color: #0a3b87;
@@ -101,47 +94,18 @@ html, body {
     font-size: 4.5em;
     padding: 1rem;
 }
-
 hr.light {
     border-top: 1px solid #ffffff;
     color: #ffffff;
     margin-top: .8rem;
     margin-bottom: 1rem;
 }
-@media (max-width: 768px) {
-    .carousel-caption {
-        top: 45%;
-    }
-    .carousel-caption h1 {
-        font-size: 350%;
-    }
-    .carousel-caption h3 {
-        font-size: 140%;
-        font-weight: 400;
-        padding-bottom: .2rem;
-    }
-    .carousel-caption .btn {
-        font-size: 95%;
-        padding: 8px 14px;
-    }
+@media (max-width: 768px) 
     .display-4 {
         font-size: 200%;
     }
 }
-@media (max-width: 576px) {
-    .carousel-caption {
-        top: 40%;
-    }
-    .carousel-caption h1 {
-        font-size: 250%;
-    }
-    .carousel-caption h3 {
-        font-size: 110%;
-    }
-    .carousel-caption .btn {
-        font-size: 90%;
-        padding: 4px 8px;
-    }
+@media (max-width: 576px) 
     .carousel-indicators {
         display: none;
     }
@@ -177,12 +141,10 @@ figure {
             transform: translateZ(0);
     will-change: transform;
 }
-
 body {
   height: 200px;
   position: relative;
 }
-
 .intro-copy {
   padding: 1em;
   margin: 50vh auto;
@@ -193,7 +155,6 @@ body {
   line-height: 1.2;
   text-align: center;
 }
-
 .top-link {
   transition: all .25s ease-in-out;
   position: fixed;
@@ -237,13 +198,12 @@ body {
 }
 #main-footer {
     background-color: #0a3b87;
+    color:#FFFFFF;
     padding-top: 30px;
     padding-bottom: 20px;
     padding-right: 0;
     padding-left: 0;
-    text-transform: uppercase;
     font-weight: 400;
-    color: white !important;
 }
 .container-footer {
     margin-right: auto;
@@ -251,8 +211,7 @@ body {
     padding-left: 15px;
     padding-right: 15px;
 }
-.navfooter li a {    
-    color: white !important;
+.navfooter li a {   
     font-family: 'Oswald', sans-serif;
     padding-right: 12px;
     padding-left: 12px;
@@ -264,7 +223,6 @@ body {
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
 }
 
@@ -286,4 +244,43 @@ body {
 
 #myBtn:hover {
   background-color: #555;
+}
+
+.active, .accordion:hover {
+  background-color: #8b2424; 
+}
+button.accordion {
+    background-color: #ffffff;
+    color: #007bff;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+    transition: 0.4s;
+}
+button.accordion.active, button.accordion:hover {
+    background-color: #c3d5ffa6; 
+}
+h2 {
+    background-color: #e85019;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+    transition: 0.4s;    
+    border: 1px solid #e85019;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px #ccc;
+}
+div.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
 }
