@@ -1,6 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,500,700');
 @import url('https://fonts.googleapis.com/css?family=Oswald:400,500,700');
 
+a {
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  color: white;
+}
+
+a:hover {     
+  background: orange;
+}
+
 html, body {
     height: 100%;
     width: 100%;
