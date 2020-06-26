@@ -296,3 +296,59 @@ div.panel {
     background-color: white;
     overflow: hidden;
 }
+
+contact-form{
+    display: block;
+}
+
+contact-input{
+    width: 100%;
+    padding: 0.3125rem;
+    border: 1px solid #00a9ec;
+    border-radius: 2px;
+    height: 39px;
+    font-size: 1rem;
+}
+
+contact-center textarea{
+    height: initial;
+}
+
+contact-label{
+    text-align: left;
+    background: transparent;
+    padding: 0.3125rem 0 0;
+    padding-right: 35px;
+}
+
+contact-label i{
+    font-size: 8px;
+    vertical-align: middle;
+    color: rgb(245, 21, 21);
+    padding-bottom: 4px;
+    padding-left: 3px;
+}
+
+submit-text{
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    padding-top: 0.3125rem;
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: grey;
+}
+
+contact-center .btn-submit{
+    width: 175px;
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 0.625rem auto;
+}
+
+contact-alt h3{
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
