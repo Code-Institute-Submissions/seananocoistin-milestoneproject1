@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,500,700');
 @import url('https://fonts.googleapis.com/css?family=Oswald:400,500,700');
 
+.home-image{
+    height: 60vh;
+    background: url(img src="./assets/images/suaitheantas1.png") no-repeat right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 a {
   outline: none;
   text-decoration: none;
@@ -20,11 +29,11 @@ html, body {
     color: #222;
 }
 .navbar {
-    padding: .8rem;
+    padding: 4rem;
     background-color: #e85019;
 }
 .navbar-nav li {
-    padding-right: 20px;
+    padding-right: 1px;
 }
 /* nav .navbar-dark.navbar-nav.navbar-link li a {
     color: white !important; 
@@ -38,8 +47,8 @@ html, body {
     margin-top: 1rem;
 }
 .backtotop {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 .orange-background {
     text-align: left;
