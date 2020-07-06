@@ -13,19 +13,22 @@ a:hover {
   background: orange;
 }
 
-html, body {
-    height: 100%;
-    width: 100%;
-    font-family: 'Lato', sans-serif;
-    color: #222;
-}
 .navbar {
     padding: .8rem;
     background-color: #e85019;
 }
+
 .navbar-nav li {
     padding-right: 20px;
 }
+
+.navbar-nav.navbar-center {
+margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+}
+
 /* nav .navbar-dark.navbar-nav.navbar-link li a {
     color: white !important; 
     } */
@@ -37,10 +40,12 @@ html, body {
 .container {
     margin-top: 1rem;
 }
+
 .backtotop {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
+
 .orange-background {
     text-align: left;
     background: #e85019;
@@ -51,6 +56,7 @@ html, body {
     border-radius: 5px;
     box-shadow: 10px 10px 10px #ccc;
 }
+
 .blue-background {
     text-align: left;
     background: #0a3b87;
@@ -61,33 +67,23 @@ html, body {
     border-radius: 5px;
     box-shadow: 10px 10px 10px #ccc;
 }
+
 .checkbox {
     padding: 10px;
 }
-.carousel-inner img {
-    width: 100%;
-    height: 100%;
-}
+
 .btn-primary {
     background-color: #0a3b87;
     border: 1px solid #563d7c;
 }
+
 .btn-primary:hover {
     background-color: #e85019;
     border: 1px solid #e85019;
 }
+
 .padding {
     padding-bottom: 2rem;
-}
-.welcome {
-  width: 75%;
-  margin: 0 auto;  
-  padding-top: 2rem;
-}
-.welcome hr {
-    border-top: 2px solid #b4b4b4;
-    width: 95%;
-    margin-top: 1rem;
 }
 .fa-code {
     color: #e54d26;
@@ -112,102 +108,45 @@ hr.light {
     margin-top: .8rem;
     margin-bottom: 1rem;
 }
-@media (max-width: 768px) 
-    .display-4 {
-        font-size: 200%;
-    }
-}
-@media (max-width: 576px) 
-    .carousel-indicators {
-        display: none;
-    }
-    .display-4 {
-        font-size: 160%;
-    }
-}
-figure {
-    position: relative;
-    width: 100%;
-    height: 60%;
-    margin: 0!important;
-}
-.fixed-wrap {
-    clip: rect(0, auto, auto, 0);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
+
+html, body {
     height: 100%;
-}
-#fixed {
-    background-image: url('img/banc.jpg');
-    position: fixed;
-    display: block;
-    top: 0;
-    left: 0;
     width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: center center;
-    -webkit-transform:  translateZ(0);
-            transform: translateZ(0);
-    will-change: transform;
+    font-family: 'Lato', sans-serif;
+    color: #222;
+    *box-sizing: border-box; 
 }
-body {
-  height: 200px;
-  position: relative;
-}
-.intro-copy {
-  padding: 1em;
-  margin: 50vh auto;
-  max-width: 15em;
-  font-family: Helvetica;
-  font-weight: lighter;
-  font-size: 2em;
-  line-height: 1.2;
-  text-align: center;
-}
-.top-link {
-  transition: all .25s ease-in-out;
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  display: inline-flex;
-  
-	cursor: pointer;
-	align-items: center;
-	justify-content: center;
-	margin: 0 3em 3em 0;
-	border-radius: 50%;
-	padding: .25em;
-	width: 80px;
-	height: 80px;
-    background-color: #F8F8F8;
-  
-  &.show {
-    visibility: visible;
-    opacity: 1;
-  }
-  
-  &.hide {
-    visibility: hidden;
-    opacity: 0;
-  }
 
-	svg {
-		fill: #000;
-		width: 24px;
-		height: 12px;
-	}
-
-	&:hover {
-		background-color: #E8E8E8;
-
-		svg {
-			fill: #000000;
-		}
-	}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
 }
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.contact-container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
 #main-footer {
     background-color: #0a3b87;
     color:#FFFFFF;
@@ -234,10 +173,6 @@ body {
     margin-left: -5px;
 }
 
-body {
-  font-size: 20px;
-}
-
 #myBtn {
   display: none;
   position: fixed;
@@ -261,6 +196,7 @@ body {
 .active, .accordion:hover {
   background-color: #8b2424; 
 }
+
 button.accordion {
     background-color: #ffffff;
     color: #007bff;
@@ -276,6 +212,7 @@ button.accordion {
 button.accordion.active, button.accordion:hover {
     background-color: #c3d5ffa6; 
 }
+
 h2 {
     background-color: #e85019;
     color: white;
@@ -290,65 +227,10 @@ h2 {
     border-radius: 5px;
     box-shadow: 10px 10px 10px #ccc;
 }
+
 div.panel {
     padding: 0 18px;
     display: none;
     background-color: white;
     overflow: hidden;
-}
-
-contact-form{
-    display: block;
-}
-
-contact-input{
-    width: 100%;
-    padding: 0.3125rem;
-    border: 1px solid #00a9ec;
-    border-radius: 2px;
-    height: 39px;
-    font-size: 1rem;
-}
-
-contact-center textarea{
-    height: initial;
-}
-
-contact-label{
-    text-align: left;
-    background: transparent;
-    padding: 0.3125rem 0 0;
-    padding-right: 35px;
-}
-
-contact-label i{
-    font-size: 8px;
-    vertical-align: middle;
-    color: rgb(245, 21, 21);
-    padding-bottom: 4px;
-    padding-left: 3px;
-}
-
-submit-text{
-    width: 100%;
-    margin: 0;
-    text-align: center;
-    padding-top: 0.3125rem;
-    font-size: 1.3rem;
-    font-weight: 300;
-    color: grey;
-}
-
-contact-center .btn-submit{
-    width: 175px;
-    text-align: center;
-    font-size: 1.3rem;
-    margin: 0.625rem auto;
-}
-
-contact-alt h3{
-    text-align: center;
-    font-size: 30px;
-    letter-spacing: 2px;
-    margin-bottom: 20px;
 }

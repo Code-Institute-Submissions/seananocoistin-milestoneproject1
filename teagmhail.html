@@ -27,16 +27,15 @@
         <div class="container-fluid">
 
             <!--- Burger menu -->
-            <!--- <a class="navbar-brand" href="http://www.tomhaltoir.com/"><img src="./assets/images/suaitheantas1.png" alt="logo for Cumann na dTomhaltóirí Gaeilge"></a> -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <!--- Main navbar links -->
             <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav mr-auto">
+                <ul class="nav navbar-nav navbar-center">
                     <li class="nav-item">
-                        <a class="nav-link" href="/index.html">Baile<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="/index.html">Baile</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/ball.html">Bí i do bhall</a>
@@ -48,7 +47,7 @@
                         <a class="nav-link" href="/information.html">Information for Businesses</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/teagmhail.html">Déan teagmháil linn</a>
+                        <a class="nav-link" href="/teagmhail.html">Déan teagmháil linn<span class="sr-only">(current)</span></a>
                     </li>
                 </ul>
             </div>
@@ -56,56 +55,34 @@
         </div>
     </nav>
 
-        </nav>
-    </div>
-
 
 <div class="container">
     <h2>Déan Teagmháil Linn</h2>
         <p>Chun teagmháil a dhéanamh linn, seol teachtaireacht chugainn anseo.</p>
 
-    <div class="container-fluid">
-            <div class="form-row">
-            <div class="form-group col-md-6">
-                <label for="inputfirstname">Céad ainm</label>
-                <input type="text" class="form-control" id="inputfirstname">
-            </div>
-        </div>
+<div class="contact-container">
+  <form action="/action_page.php">
+    <label for="fname">Céad ainm<i class="fas fa-asterisk"></i></label>
+    <input type="text" id="fname" name="ainm" placeholder="D'ainm..." required>
 
-        <div class="form-row">
-            <div class="form-group col-md-6">
-                <label for="inputlastname">Sloinne</label>
-                <input type="text" class="form-control" id="inputlastname">
-            </div>
-        </div>
+    <label for="lname">Sloinne</label>
+    <input type="text" id="lname" name="sloinne" placeholder="Do shloinne..." required>
 
-        <div class="form-row">
-            <div class="form-group col-md-6">
-                <label for="inputemail">Seoladh ríomhphoist</label>
-                <input type="email" class="form-control" id="inputemail" placeholder="tadhg@gmail.com">
-            </div>
-        </div>
+    <label for="lname">Do sheoladh ríomhphoist</label>
+    <input type="text" id="lname" name="ríomhphost" placeholder="tadhg@gmail.com" required>
 
-        <div class="form-row">
-            <div class="form-group col-md-6">
-                <label for="inputtelephone">D'uimhir ghutháin</label>
-                <input type="text" class="form-control" id="inputtelephone" placeholder="+353-1234567890">
-            </div>
-        </div>
+    <label for="inputtelephone">D'uimhir ghutháin</label>
+    <input type="text" id="inputtelephone" name="telephone" placeholder="+353-1234567890">
 
-        <div class="form-row">
-            <div class="form-group col-md-6">
-                <label for="disc" class="contact-form contact-label">Do theachtaireacht: <i class="fas fa-asterisk"></i></label>
-                <br>
-                <textarea cols="30" rows="5" name="disc" id="disc" class="contact-form contact-input" placeholder="Cuir isteach do theachtaireacht anseo" required></textarea>
-            </div> 
-        </div>
+    <label for="ábhar">Ábhar</label>
+    <input type="text" id="ábhar" name="ábhar" placeholder="Ábhar na teachtaireachta" required>
 
-        <div class="form-group">
-            <button type="submit" class="btn btn-primary">Seol</button>
-        </br>
-        </div>
-        </div>
+    <label for="subject">An teachtaireacht</label>
+    <textarea id="subject" name="subject" placeholder="Clóscríobh do theachtaireacht anseo..." style="height:200px" required></textarea>
+
+    <input type="submit" value="Seol í">
+  </form>
+</div>
 </div>
 
     <footer id="main-footer">
@@ -130,6 +107,7 @@
             </div>
         </div>
     </footer>
+
 <script>
 mybutton = document.getElementById("myBtn");
 
@@ -150,4 +128,5 @@ function topFunction() {
 </script>
 
 </body>
+
 </html>
