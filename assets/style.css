@@ -39,11 +39,20 @@ right: 0;
 }
 .container {
     margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .backtotop {
     margin-top: 2rem;
     margin-bottom: 2rem;
+}
+
+.content {
+  max-width: 1000px;
+  margin: auto;
+  background: white;
+  padding: 10px;
 }
 
 .orange-background {
