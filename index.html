@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="ga">
 
 <head>
     <meta charset="utf-8">
@@ -33,7 +33,7 @@ body, html {
 }
 
 /* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
-@media only screen and (max-device-width: 1366px) {
+@media only screen {
   .parallax {
     background-attachment: scroll;
   }
@@ -58,7 +58,7 @@ body, html {
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="nav navbar-nav navbar-center">
                     <li class="nav-item">
-                        <a class="nav-link" href="/index.html">Baile<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="/index.html"><i class="fa fa-home"></i><span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/ball.html">Bí i do bhall</a>
@@ -78,84 +78,52 @@ body, html {
         </div>
     </nav>
 
-<div class="parallax"></div>
-
-<!--- <div style="height:300px;background-color:white;font-size:36px">-->
-
 <div class="container">
-
+   <picture>
+        <source media="(min-width: 650px)" srcset="./assets/images/íomháarbarr1.png" class="center">
+        <source media="(min-width: 465px)" srcset="./assets/images/suaitheantas1.png" class="center">
+        <source media="(min-width: 50px)" srcset="./assets/images/suaitheantas1.png" class="center">
+        <img src="/assets/images/íomháarbarr1.png" alt="wide logo with images of products that use the Irish language" style="width:auto;" class="center">
+    </picture>
     <div class="d-flex justify-content-center">
-            <!--- Welcome section with a brief description of what Cumann na dTomhaltóirí Gaeilge is as well as a link to the page to register as a member of the organisation. -->
-                        <div class="col-lg-5">
-                            <h2 class="blue-background">Cé sinne?</h2>
-                            <br>
-                            <h4>Is eagraíocht é <a href="/maidirlinn.html" style="color:black;">Cumann na dTomhaltóirí Gaeilge</a> dóibh siúd ar mhaith leo táirgí agus seirbhísí a fháil i nGaeilge.</h4>
-                            <br>
-                        </div>
-                        <div class="col-lg-5">
-                            <h2 class="orange-background">Bí i do bhall den Chumann</h2>
-                            <br>
-                            <h4>Más mian leat tacú leis an iarracht chun tuilleadh táirgí agus seirbhísí Gaeilge a fháil, <a href="/ball.html" style="color:black;">cláraigh leis an gCumann</a>.</h4>
-                        </div>
-                    </div>
+    <h1 class="display-4">Cumann na dTomhaltóirí Gaeilge</h1>
     </div>
 </div>
 
-<!-- <div class="container">
-    <div class="content">
-        <div class="row padding">
-            <div class="col-lg-3">
-                <div class="card">
-                    <div class="card-body">
-                        <h1 class="card-title">Maidir linn</h1>
-                        <p class="card-text">Cuir eolas ar an gCumann, na cuspóirí atá aige, agus cad chuige é.</p>
-                        <a href="/maidirlinn.html" class="btn btn-primary btn-lg">Faoin gCumann</a>
-                    </div>
-                </div>
-            </div>
+<div class="parallax"></div>
 
-            <div class="col-md-3">
-                <div class="card">
-                    <div class="card-body">
-                        <h1 class="card-title">Bí i do bhall</h1>
-                        <p class="card-text">Tar isteach sa Chumann. Ní thógfaidh sé ach nóiméad nó dhó chun clárú linn.</p>
-                        <a href="/ball.html" class="btn btn-primary btn-lg">Cláraigh</a>
-                    </div>
-                </div>
-            </div>
-                        
-            <div class="col-md-3">
-                <div class="card">
-                    <div class="card-body">
-                        <h1 class="card-title">Information</h1>
-                        <p class="card-text">Advice for businesses on how to attract new customers by using the Irish language.</p>
-                        <a href="/information.html" class="btn btn-primary btn-lg">Learn more</a>
-                    </div>
-                </div>
-            </div>
+<div class="container">
+    <div class="d-flex justify-content-center">
+        <div class="col-lg-5">
+            <h2 class="blue-background">Cumann na dTomhaltóirí Gaeilge</h2>
+            <br>
+            <h4>Is <a href="/maidirlinn.html" style="color:black;">eagraíocht é an cumann</a> dóibh siúd ar mhaith leo táirgí agus seirbhísí a fháil i nGaeilge.</h4>
+            <br>
+        </div>
+        <div class="col-lg-5">
+            <h2 class="orange-background">Bí i do bhall den Chumann</h2>
+            <br>
+            <h4>Más mian leat tacú leis an iarracht chun tuilleadh táirgí agus seirbhísí Gaeilge a fháil, <a href="/ball.html" style="color:black;">cláraigh leis an gCumann</a>.</h4>
         </div>
     </div>
-    </div>-->
+</div>
 
     <footer id="main-footer">
         <div class="container-footer">
             <div class="row">
-                <div class="col-sm-4">
-                <img src="./assets/images/suaitheantas1.png" alt="logo for Cumann na dTomhaltóirí Gaeilge">
-                </div>
-                <div class="col-sm-8">
-                    <ul id="navfooter" class="list-inline">
+                    <div class="col-md-12">
+                        <ul id="navfooter" class="list-inline">
                         <li>
                             <a href="/maidirlinn.html" style="color:#ffffff">Maidir linn</a>
                         </li>
                         <li>
-                            <a style="color:#ffffff" href="mailto:eolas@tomhaltoir.com?Subject=Teachtaireacht ó www.tomhaltoir.com">Déan teagmháil</a>
+                            <a style="color:#ffffff" href="mailto:eolas@tomhaltoir.com?Subject=Teachtaireacht%20ó%20www.tomhaltoir.com">Déan teagmháil</a>
                         </li>
                         <li>
                             <a style="color:#ffffff" href="https://www.facebook.com/tomhaltoiri" target="_blank">Lean sinn ar Facebook</a>
                         </li>
-                    </ul>
-                </div>
+                        </ul>
+                    </div>
             </div>
         </div>
     </footer>
