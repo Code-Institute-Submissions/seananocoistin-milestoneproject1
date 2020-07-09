@@ -95,29 +95,6 @@ right: 0;
 .padding {
     padding-bottom: 2rem;
 }
-.fa-code {
-    color: #e54d26;
-}
-.fa-bold {
-    color: #563d7c;
-}
-.fa-css3 {
-    color: #2163af;
-}
-.fa-code, .fa-bold, .fa-css3 {
-    font-size: 4em;
-    margin: 1rem;
-}
-.social a {
-    font-size: 4.5em;
-    padding: 1rem;
-}
-hr.light {
-    border-top: 1px solid #ffffff;
-    color: #ffffff;
-    margin-top: .8rem;
-    margin-bottom: 1rem;
-}
 
 html, body {
     height: 100%;
