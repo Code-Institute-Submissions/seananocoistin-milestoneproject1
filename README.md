@@ -7,15 +7,16 @@
 * [Faisnéis](#faisnéis)
 * [Gabhálacha](#gabhálacha)
 * [Teicneolaíochtaí](#teicneolaíochtaí)
-* [Sreangshamhlacha] (#sreangshamhlacha)
+* [Sreangshamhlacha](#sreangshamhlacha)
 * [Socrú](#socrú)
+* [Tástáil](#tástáil)
 * [Gnéithe](#gnéithe)
 * [Stádas](#stádas)
 * [Tinfeadh](#tinfeadh)
 * [Teagmháil](#teagmháil)
 
 ## Faisnéis
-Is suíomh gréasáin é www.tomhaltoir.com do dhaoine ar mian leo táirgí agus seirbhísí a fháil i nGaeilge. Tá eolas faoin gCumann le fáil ar an leathanach "Maidir Linn". Tig le daoine clárú le Cumann na dTomhaltóirí Gaeilge ar an suíomh gréasáin. Tá eolas ann freisin i mBéarla (**"Information for Businesses"**) do ghnólachtaí ar mian leo comhairle a fháil faoi conas an Ghaeilge a bheith ina ngnó. 
+Is suíomh gréasáin é www.tomhaltoir.com do dhaoine ar mian leo táirgí agus seirbhísí a fháil i nGaeilge. Tá eolas faoin gCumann le fáil ar an leathanach "Maidir Linn". Tig le daoine clárú le Cumann na dTomhaltóirí Gaeilge ar an suíomh gréasáin. Tá eolas ann freisin i mBéarla (**"Advice for Businesses"**) do ghnólachtaí ar mian leo comhairle a fháil faoi conas an Ghaeilge a bheith ina ngnó. 
 
 ## Gabhálacha
 ![Seo íomhá de www.tomhaltoir.com](http://www.tomhaltoir.com/assets/images/tomhaltoir.com%20screenshot.png)
@@ -40,6 +41,13 @@ http://www.tomhaltoir.com/assets/images/wireframeinformation.png
 
 ## Socrú
 Téigh chuig www.tomhaltoir.com chun an suíomh gréasáin a fheiceáil. Tá an suíomh gréasáin beo.
+
+## Tástáil
+Rinne mé na leathanaigh HTML a thástáil ar https://validator.w3.org/, an comhad CSS a thástáil ar https://jigsaw.w3.org/css-validator/ agus an comhad JavaScript a thástáil ar https://www.jslint.com/ .
+Rinne mé é sin faoi thrí. Chabhraigh sé liom botúin agus earráidí sna comhaid HTML a aimsiú.
+
+Mar aon leis sin, rinne mé athruithe ar na comhaid HTML de réir a chéile. Mar shampla, chonaic mé go raibh an cnaipe Barr ag luí ar an roghchlár ag bun an leathanaigh. Bhí orm an bun a athrú ionas nach mbeidh an roghchlár i bhfolach. Nuair a d'athraigh mé é, bhí an roghchlár ar chlé agus an cnaipe ar dheis. Ní raibh an roghchlár i bhfolach a thuilleadh.
+
 
 ## Samplaí den chód
 <div class="container">
