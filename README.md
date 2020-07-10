@@ -26,9 +26,13 @@ Don lucht gnó le Béarla, tá leathanach eolais ann i mBéarla chun comhairle, 
 Seo íomhánna de www.tomhaltoir.com:
 
 (http://www.tomhaltoir.com/assets/images/tomhaltoir.comindex.png)
+
 (http://www.tomhaltoir.com/assets/images/tomhaltoir.comball.png)
+
 (http://www.tomhaltoir.com/assets/images/tomhaltoir.commaidirlinn.png)
+
 (http://www.tomhaltoir.com/assets/images/tomhaltoir.cominformation.png)
+
 (http://www.tomhaltoir.com/assets/images/tomhaltoir.comteagmhail.png)
 
 ## Teicneolaíochtaí
@@ -49,9 +53,13 @@ Seo íomhánna de www.tomhaltoir.com:
 Féach ar na híomhánnna seo a leanas:
 
 http://www.tomhaltoir.com/assets/images/indexwireframe.png
+
 http://www.tomhaltoir.com/assets/images/ballwireframe.png
+
 http://www.tomhaltoir.com/assets/images/maidirlinnwireframe.png
+
 http://www.tomhaltoir.com/assets/images/informationwireframe.png
+
 http://www.tomhaltoir.com/assets/images/teagmhailwireframe.png
 
 ## Socrú
@@ -132,9 +140,13 @@ For anglophone businesses, there is a large Information page in the English lang
 Here are some screengrabs of www.tomhaltoir.com:
 
 (http://www.tomhaltoir.com/assets/images/tomhaltoir.comindex.png)
+
 (http://www.tomhaltoir.com/assets/images/tomhaltoir.comball.png)
+
 (http://www.tomhaltoir.com/assets/images/tomhaltoir.commaidirlinn.png)
+
 (http://www.tomhaltoir.com/assets/images/tomhaltoir.cominformation.png)
+
 (http://www.tomhaltoir.com/assets/images/tomhaltoir.comteagmhail.png)
 
 ## Technologies
@@ -155,9 +167,13 @@ Here are some screengrabs of www.tomhaltoir.com:
 See wireframes here:
 
 http://www.tomhaltoir.com/assets/images/indexwireframe.png
+
 http://www.tomhaltoir.com/assets/images/ballwireframe.png
+
 http://www.tomhaltoir.com/assets/images/maidirlinnwireframe.png
+
 http://www.tomhaltoir.com/assets/images/informationwireframe.png
+
 http://www.tomhaltoir.com/assets/images/teagmhailwireframe.png
 
 ## Deployment
