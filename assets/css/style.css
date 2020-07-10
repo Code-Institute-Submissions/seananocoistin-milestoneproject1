@@ -233,7 +233,7 @@ div.panel {
 }
 
 .parallax {
-  background-image: url('../assets/images/fáilte.jpg');
+  background-image: url('/assets/images/fáilte.jpg');
   min-height: 500px; 
   background-attachment: fixed;
   background-position: center;
