@@ -18,8 +18,10 @@
 
 <!--- body -->
 <body>
+<!-- Back to the top button function -->
 <button onclick="topFunction()" id="myBtn" title="Téigh chuig an mbarr">Top</button>
 
+<!--- Navigation bar -->
 <nav class="navbar navbar-expand-md navbar-dark sticky-top">
     <div class="container-fluid">
 
@@ -51,12 +53,12 @@
     </div>
 </nav>
 
-
+<!-- The accordian feature to list and display information and advice -->
 <div class="container">
-    <h1>Advice for Businesses</h1>
+    <h1>Information and advice for Businesses</h1>
     <p>We have provided much information here to offer you advice. Click on the segments below to open and close them.</p>
 
-    <!--- Below are links to information and questions with answers. Users can use the links to jump to a relevant point or question. -->
+    <!--- Below are links to information and questions with answers. Users can open and close the the segments to make it easier to read. -->
     <h2 class="accordion" id="heading1">Information about the Irish language</h2>
     <div class="panel">
         <button class="accordion">1. The situation of Irish today</button>
@@ -85,7 +87,7 @@
 
     <button class="accordion">5. An increasing trend </button>
         <div class="panel">
-            <p>Many businesses have used Irish over the years and it is an increasing trend. All sorts and sizes of businesses have used Irish including major international corporations, e.g. Microsoft, Google, Tesco, to small local Irish businesses such as the <a href="http://fourprovinces.ie/" style="color:blue;" target="_blank">Four Provinces brewing company</a>. All types of businesses have used Irish from doctors, solicitors, hotels, pubs, restaurants, bookshops to webdesigners, landscapers, film makers etc.</p>
+            <p>Many businesses have used Irish over the years and it is an increasing trend. All sorts and sizes of businesses have used Irish including major international corporations, e.g. Microsoft, Google, Tesco, to small Irish businesses such as <a href="https://www.lillysecoclean.com/collections/cleaning-products/products/leacht-niochain-500ml" style="color:blue;" target="_blank">Lilly's Eco Clean</a>. All types of businesses have used Irish from doctors, solicitors, hotels, pubs, restaurants, bookshops to webdesigners, landscapers, film makers etc.</p>
         </div>
 
     <button class="accordion">6. Name some companies that use the Irish language</button>
@@ -205,7 +207,7 @@
             <p>That depends on how you decide to use Irish in your business. There will be some initial set up costs but you should recoup your costs after a while. Erecting Irish-language signs in your premises should not cost too much. Using the world wide web will keep costs down. Allowing customers to be able do their business on an Irish website and/or being able to download documents in Irish will keep costs down.</p>
             <p>There is financial assistance available for bilingual signage and material from Foras na Gaeilge.</p>
 
-        <!--- This section has a live e-mail link as well as a Bootstrap modal used to make a contact form -->
+        <!--- This section has an e-mail link as well as a Bootstrap modal used to make a contact form -->
         <h4>Inform us</h4>
             <p>If you provide products and services in Irish, <a href="mailto:eolas@tomhaltoir.com?Subject=Gnólacht%20nua" style="color:blue;" target="_top">please let us know</a> about it so that we can inform our members that they should buy your prodcuts or services.</p>
         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Let us know about your product or service</button>
@@ -270,6 +272,7 @@
     </div>
 </footer>
 
+<!--- JavaScript code to make the accordian feature function -->
 <script>
 var acc = document.getElementsByClassName("accordion");
 var i;
